@@ -1,0 +1,32 @@
+.doNotPrint{display:none !important;}
+.do_Not_Print {display:none !important;}
+#do_Not_Print {display:none !important;}
+.no_print{display:none !important;}
+.no-print{display:none !important;}
+.not_print{display:none !important;}
+* {overflow: visible !important;}
+body{
+	background-color: white !important;
+	-webkit-print-color-adjust: exact !important;
+}
+.container-fluid{
+	background-color: white !important;
+}
+#content{
+	background-color: white !important;
+}
+.box.generic,.widget{
+	page-break-inside: avoid;
+}
+.widget-head{
+	margin: 1px;
+}
+.highcharts-container{
+	margin: 0 auto;
+}
+.print-clearfix{
+	before:{
+		content: "<div></div>",
+		height: "1px"
+	}
+}

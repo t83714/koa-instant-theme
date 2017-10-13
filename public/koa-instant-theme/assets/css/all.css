@@ -1,0 +1,35 @@
+.shadow-none{
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+#footer{
+	z-index:99 !important;
+}
+/*.popover{
+	z-index:10001;
+}*/
+/*.ui-dialog-title{
+	margin:0px !important;
+	padding:0px !important;
+}*/
+
+/* Home page widget place holder*/
+.hp-widget-placeholder{
+	border: 1px dotted black;
+	margin: 1em 1em 1em 1em;
+	height: 150px;
+}
+
+.hp-container-placeholder{
+	border: 1px dashed black;
+	min-height: 150px !important;
+}
+
+.hp-container-empty{
+	min-height: 150px !important;
+}
+
+#menu{
+	z-index: 1 !important;
+}
